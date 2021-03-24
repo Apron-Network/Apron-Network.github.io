@@ -18,7 +18,7 @@ Any infrastructure service provider can publish its infrastructure services thro
 #### Apron Service Marketplace
 Apron service marketplace matches the services provided by infrastructure service providers with the needs of DAPP developers. Infrastructure service providers can implement the up chain of infrastructure services by deploying Apron Node with one click. Apron Node will provide infrastructure services to the Apron Market smart contract through OCW, and synchronize the infrastructure service usage data into the smart contract, and the Apron Market smart contract will charge the service usage.  
 
-Apron Market smart contract will use the data provided by OCW to calculate the income of infrastructure service providers and deduct the usage fees that service users should pay. Apron market is not just a smart contract, but also a web-based service discovery platform. Service users can find the infrastructure services they want to use on the Apron Market, and they can also publish their required infrastructure needs through Apron Market, and realize the matching between demand and supply.  
+Apron Market smart contract will use the data provided by OCW to calculate the income of infrastructure service providers and deduct the usage fees that service users should pay. Apron Market is not just a smart contract, but also a web-based service discovery platform. Service users can find the infrastructure services they want to use on the Apron Market, and they can also publish their required infrastructure needs through Apron Market, and realize the matching between demand and supply.  
 
 #### Apron SDK
 In addition to the ability to migrate services from the existing infrastructure service usage to the Apron Network in a seamless transfer, Apron SDK is also used to realize the dynamic balance of connection applied to Apron Nodes and the encryption of communication data. Application developers can quickly encrypt application network access and communications data by simply integrating with the Dynamic equilibrium, not just can be used on the Web, but also in the PC, mobile integration in a native way.
@@ -43,9 +43,9 @@ In addition to the ability to migrate services from the existing infrastructure 
 **Consumer** is the user of the service.  
 
 Find us on:<br>
-Website: [https://arpon.network/](arpon.network)<br>
+Website: [https://apron.network/](apron.network)<br>
 Github: [https://github.com/apron-network](https://github.com/apron-network)<br>
-Email: [mailto:apron@arpon.network](apron@arpon.network)<br>
+Email: [mailto:apron@apron.network](apron@apron.network)<br>
 Discord: [https://discord.gg/Bu6HzJP2YY](https://discord.gg/Bu6HzJP2YY)<br>
 Medium: [https://medium.com/@apron.network](https://medium.com/@apron.network)<br>
 Twitter: [https://twitter.com/apronofficial1](https://twitter.com/apronofficial1)<br>

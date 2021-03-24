@@ -11,8 +11,8 @@ So based above reason we built Apron Network. It is a decentralized infrastructu
 
 ##### Key Services&Modules:<br><br>
 
-###### 1.Apron node
-Apron node to enable service providers publicly available and on-chain by one-button deployment, through the OCW(off-chain worker) Synchronize usage, billing for developers and benefits for providers.
+###### 1.Apron Node
+Apron Node to enable service providers publicly available and on-chain by one-button deployment, through the OCW(off-chain worker) Synchronize usage, billing for developers and benefits for providers.
 ###### 2. Apron Market
 Apron Marketis a service discovery platform, also it can be considered as the smart contract. It matches the services provided by infrastructure service providers with the demands of DApp developers. Once on-chain completed, Apron nodes will synchronize infrastructure service data and usage to the smart contract. Following that, the smart contract execute service. Additionally, we help them searching target developers through the Apron Market.
 ###### 3. Apron SDK

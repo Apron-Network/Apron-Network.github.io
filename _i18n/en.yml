@@ -1,17 +1,17 @@
-global:
+﻿global:
   chinese: 中文
 
 nav:
   home: Home
   documents: Documents
   market: Services Market
-  project: projects
+  project: Projects
   node: Heco Node Service
   explorer: Explorer
   whitepaper: Whitepaper
   blog: Blog
-  about: About us
-  news: Apron Blog
+  about: About US
+  news: Apron's Blog
 
 homepage:
   slides:
@@ -41,11 +41,11 @@ homepage:
       liDescrption: API services providers are penalized for mortgaging assets if services are not guaranteed.
     - liTitle: Multi-link ecological API interface
       classname: fa fa-cube
-      liDescrption: Access Polkadot、Eth、Eos、Filecoin and other public chains to serve more application developers.
+      liDescrption: Access Polkadot、Ethereum、EOS、Filecoin and other public chains to serve more application developers.
     - liTitle: Instant availability
       classname: fa fa-clock-o
       liDescrption: Just write a piece of code to access your application.
-    - liTitle: Apron market
+    - liTitle: Apron Market
       classname: fa fa-line-chart
       liDescrption: More options for better API service providers based on API evaluations.
   labs:
@@ -75,7 +75,7 @@ homepage:
     - title: 2021.Q1
       description: <div>Complete the Web3 Open Grants application</div><div>Complete the Apron Network White Paper</div><div>Establish the foundation of Apron Network</div><div>Release ERC20 token and complete private placement</div><div>Complete the development of POC version</div>
     - title: 2021.Q2
-      description: <div>Release Apron Network Beta 1.0 version</div><div>Provide node services for Ethereum</div><div>Provide node services for Polkadot</div><div>Release Apron market</div>
+      description: <div>Release Apron Network Beta 1.0 version</div><div>Provide node services for Ethereum</div><div>Provide node services for Polkadot</div><div>Release Apron Market</div>
     - title: 2021.Q3
       description: <div> Connect to multi-public blockchain node service</div><div>Release the ApronSDK</div><div>Starting public BETA</div>
     - title: 2021.Q4

@@ -5,7 +5,7 @@ global:
 nav:
   home: 首页
   documents: 文档
-  market: 市场
+  market: 服务市场
   project: 项目
   node: Heco节点服务
   explorer: 浏览器
@@ -42,11 +42,11 @@ homepage:
       liDescrption: API 服务商抵押资产，如无法保证服务，将对服务商进行惩罚
     - liTitle: 多链生态接 API 接口
       classname: fa fa-cube
-      liDescrption: 接入 Polkdot、Eth、Eos、Filecion 等公链，服务更多的应用开发者
+      liDescrption: 接入 Polkadot、Ethereum、EOS、Filecoin 等公链，服务更多的应用开发者
     - liTitle: 即时可用
       classname: fa fa-clock-o
       liDescrption: 只需写一段代码，既可以接入您的应用程序
-    - liTitle: Apron市场
+    - liTitle: Apron 市场
       classname: fa fa-line-chart
       liDescrption: 更多选择，可以根据 API 评价选择更优质的 API 服务者
   labs:
@@ -69,7 +69,7 @@ homepage:
     li2Descrption: Sean拥有Asia Gaa Ulster大学的博士学位，并在数字界工作多年，作为区块链技术的忠实粉丝，他一直活跃在各种优秀的社区中，在研究加密货币，尤其是营销领域有着丰富的经验。
     li3Descrption: Jim毕业于美国洲际大学，作为一名经验丰富的技术经理，他曾在计算机和网络安全行业工作过，精通数据中心、企业服务和生产，以及面向全球客户的基础设施。
   media:
-    description: 不要错过在社交网络上关注我们
+    description: 请在社交网络上关注我们
   roadmaptop:
     title: Apron Network Roadmap
   roadmap:
@@ -83,7 +83,7 @@ homepage:
       description: <div>接入多个公链节点服务</div><div>发布Apron SDK</div><div>开始公测</div>
 
     - title: 2021.Q4
-      description: <div>Apron Network主网上线</div><div>构建DAO</div><div>为Apron NetWork接入更多传统基础设施服务</div><div>移交Apron NetWork</div>
+      description: <div>Apron Network主网上线</div><div>为Apron Network构建DAO</div><div>为Apron Network接入更多传统基础设施服务</div><div>移交Apron NetWork</div>
 aboutus:
-  description: <p>Apron Network 致力于建立一个去中心化的基础设施服务网络平台，为应用开发者们、应用使用者们和基础设施运营者们提供基于区块链技术基础设施服务的去中心化网络。Apron Network 将为 Kusama 和 Polkadot 生态提供节点服务、链上数据索引、报价等基础设施服务。</p><p>联系 <a href="mailto:contact@apron.networ">contact@apron.network</a> 获取更多信息。</p>
+  description: <p>Apron Network 致力于建立一个去中心化的基础设施服务网络平台，为应用开发者们、应用使用者们和基础设施运营者们提供基于区块链技术基础设施服务的去中心化网络。Apron Network 将为 Kusama 和 Polkadot 生态提供节点服务、链上数据索引、报价等基础设施服务。</p><p>联系 <a href="mailto:contact@apron.network">contact@apron.network</a> 获取更多信息。</p>
 

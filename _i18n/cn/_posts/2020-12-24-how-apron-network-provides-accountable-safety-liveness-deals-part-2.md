@@ -18,7 +18,7 @@ Apron Network由Apron Node组成，Apron Node基于Substrate框架，启用OCW�
 #### Apron服务市场
 Apron服务市场将基础设施服务商提供的服务与DAPP开发者的需求进行匹配。基础设施服务商可以通过部署Apron Node，一键实现基础设施服务的上链。Apron Node将通过OCW向Apron Market智能合约提供基础设施服务，并将基础设施服务使用数据同步到智能合约中，由Apron Market智能合约对服务使用情况进行收费。 
 
-Apron Market智能合约将利用OCW提供的数据计算基础设施服务商的收入，并扣除服务用户应支付的使用费。Apron market不仅是一个智能合约，也是一个基于网络的服务发现平台。服务用户可以在Apron Market上找到自己想要使用的基础设施服务，也可以通过Apron Market发布自己所需的基础设施需求，实现供需匹配。 
+Apron Market智能合约将利用OCW提供的数据计算基础设施服务商的收入，并扣除服务用户应支付的使用费。Apron Market不仅是一个智能合约，也是一个基于网络的服务发现平台。服务用户可以在Apron Market上找到自己想要使用的基础设施服务，也可以通过Apron Market发布自己所需的基础设施需求，实现供需匹配。 
 
 #### Apron SDK
 除了能够将现有基础设施服务使用的服务无缝迁移到Apron网络中，Apron SDK还用于实现应用于Apron节点的动态平衡连接和通信数据的加密。应用开发者只需与动态均衡集成，就可以快速加密应用网络接入和通信数据，不仅可以在Web上使用，还可以在PC、移动端以原生方式集成。
@@ -43,9 +43,9 @@ Apron Market智能合约将利用OCW提供的数据计算基础设施服务商�
 **消费者**是服务的使用者。 
 
 Find us on:<br>
-Website: [https://arpon.network/](arpon.network)<br>
+Website: [https://apron.network/](apron.network)<br>
 Github: [https://github.com/apron-network](https://github.com/apron-network)<br>
-Email: [mailto:apron@arpon.network](apron@arpon.network)<br>
+Email: [mailto:apron@apron.network](apron@apron.network)<br>
 Discord: [https://discord.gg/Bu6HzJP2YY](https://discord.gg/Bu6HzJP2YY)<br>
 Medium: [https://medium.com/@apron.network](https://medium.com/@apron.network)<br>
 Twitter: [https://twitter.com/apronofficial1](https://twitter.com/apronofficial1)<br>

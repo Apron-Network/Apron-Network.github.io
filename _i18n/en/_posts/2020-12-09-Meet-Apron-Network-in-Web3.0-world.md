@@ -14,19 +14,18 @@ And what is the apron network? It’s created and used as a decentralized infras
 ##### Explaining of Substrate/Polkadot integration <br/><br/>
 
 
-###### Apron sdk
+###### Apron SDK
 Application developers can quickly encrypt application network access and communications data by simply integrating with the Dynamic equilibrium, not only can be used on the Web, but also in the PC, mobile integration in a native way.
 
-###### Apron market
+###### Apron Market
 Matching infrastructure services to the demands of DAPP developers is the essence of what makes the Web 3.0 portal visible and usable within the Apron Network.
 
-###### Apron node
+###### Apron Node
 The Apron Node is the component Node of the Apron Network, developed using the Substrate framework, with OCW enabled.
 
 That’s it, thanks for reading. You can also find me via the following links:  <br/>
-Website: [http://arpon.network/](http://arpon.network/)  
+Website: [https://apron.network/](https://apron.network/)  
 Github: [https://github.com/apron-network](https://github.com/apron-network)  
 Twitter: [https://twitter.com/apronofficial1](https://twitter.com/apronofficial1)  
 Medium: [https://medium.com/@apron.network](https://medium.com/@apron.network)  
-Email: [apron@arpon.network](mailto:apron@arpon.network)  
-
+Email: [apron@apron.network](mailto:apron@apron.network)  
