@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: Apron Network -去中心化Polkadot生态系统的基础设施服务网络
+locale: cn
 ---
 
 ![Apron Network- Decentralized Infrastructure Service Network for Polkadot Ecosystem](/assets/images/posts/20210107anontechnicalintroductionofapronnetwork.png)

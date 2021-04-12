@@ -1,6 +1,7 @@
 ---
 layout: detail
 title:  Apron Network如何提供安全、活力、交易第一部分
+locale: cn
 ---
 
 让我们继续看看Apron系统的设计，我们做了一些独特的框架组成我们的系统。

@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: What we should learn from Ethereum’s chain split?
+locale: en
 ---
 
 It has been a miracle that Bitcoin has been operating safely for more than 11 years. Satoshi Nakamoto, a developer of bitcoins, ushered in a new era of digital encryption by creatively proposed blockchain technology and built a well-functioning decentralized P2P network. Blockchain is a decentralized trust mechanism that has become a new model and important methodology of data protection and value exchange.‌  

@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: 是什么样的原因鞭策我们创建Apron Network?
+locale: cn
 ---
 
 

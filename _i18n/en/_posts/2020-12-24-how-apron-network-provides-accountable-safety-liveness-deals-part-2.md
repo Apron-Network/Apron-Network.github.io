@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: How Apron Network provides accountable safety, liveness, deals-Part 2
+locale: en
 ---
 
 Let’s continue to take a look on Apron system design, we made some unique frameworks consisting our system.

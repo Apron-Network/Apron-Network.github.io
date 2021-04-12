@@ -14,25 +14,32 @@ nav:
   about: 关于我们
   news: Apron文章
 
+support: 特别支持
+
 homepage:
   slides:
-    title: 去中心化的基础设施服务网络
+    title: 去中心化的<br/>基础设施服务网络
     description: 一个为DApp开发者、DApp用户、运营商提供基础设施服务的去中心化平台
     button:  开始
   advantage:
     subTitle: 我们专注于
     title: 基础设施服务
-    li1Title: 快速
-    li1Descrption: DApp 开发者可以通过 Apron API 快速连接到网络
-    li2Title: 用户引导
-    li2Descrption: Apron Market 中服务排名可以为 DApp 开发者提供更多选择
-    li3Title: 节省成本
-    li3Descrption: DApp 按使用需求支付费用，可以更好节省成本
-    li4Title: 全链生态
-    li4Descrption: Apron 将支持全链生态，可以帮助 DApp 开发者选择更多区块链网络
+  advantagelist:
+    - liTitle: 快速
+      index: 1
+      liDescrption: DApp 开发者可以通过 Apron API 快速连接到网络
+    - liTitle: 用户引导
+      index: 2
+      liDescrption: Apron Market 中服务排名可以为 DApp 开发者提供更多选择
+    - liTitle: 节省成本
+      index: 3
+      liDescrption: DApp 按使用需求支付费用，可以更好节省成本
+    - liTitle: 全链生态
+      index: 4
+      liDescrption: Apron 将支持全链生态，可以帮助 DApp 开发者选择更多区块链网络
   chooseTop:
     subTitle: 应用开发者对 Apron 青睐有加
-    title: 为应用程序提供更安全、稳定、丰富的功能
+    title: 为应用程序提供<br/>更安全、稳定、丰富的功能
   chooselist:
     - liTitle: 更多 API 服务选择
       classname: fa fa-database
@@ -54,13 +61,13 @@ homepage:
     title: 应用程序所需的所有功能、速度和可靠性。
   labslist:
     - liTitle: 强力支持
-      classname: fa fa-pencil-square-o
+      img: Icon_H40_Str.png
       liDescrption: 我们有全球各地的专家为 Apron Network 提供全面的技术支持和技术保障
     - liTitle: 商业扶持
-      classname: fa fa-television
+      img: Icon_H40_Bus.png
       liDescrption: 如果你在Apron上建立DApp项目，我们可以为您提供一部分 Apron Token作为奖励以支持你使用 API 服务
     - liTitle: 特殊定制
-      classname: fa fa-lightbulb-o
+      img: Icon_H40_Spe.png
       liDescrption: 我们可以为大型企业组织提供定制计划，帮助它们获得更多的优质服务提供者。
   team:
     subTitle: APRON NETWORK
@@ -73,17 +80,26 @@ homepage:
   roadmaptop:
     title: Apron Network Roadmap
   roadmap:
-    - title: 2021.Q1
+    - title: Q1
       description: <div>完成Web3 Open Grants申请</div><div>完成Apron Network白皮书</div><div>建立Apron Network基金会</div><div>发布 ERC20代币，完成私募</div><div>完成Apron Network POC版本开发</div>
 
-    - title: 2021.Q2
+    - title: Q2
       description: <div>完成Apron Network Beta1.0版本发布</div><div>接入Ethereum，提供Ethereum节点服务</div><div>接入Polkadot，提供Polkadot节点服务</div><div>发布Apron Market</div>
 
-    - title: 2021.Q3
+    - title: Q3
       description: <div>接入多个公链节点服务</div><div>发布Apron SDK</div><div>开始公测</div>
 
-    - title: 2021.Q4
+    - title: Q4
       description: <div>Apron Network主网上线</div><div>为Apron Network构建DAO</div><div>为Apron Network接入更多传统基础设施服务</div><div>移交Apron NetWork</div>
+  institutions:
+    title1: 投资机构
+    title2: 合作伙伴
 aboutus:
-  description: <p>Apron Network 致力于建立一个去中心化的基础设施服务网络平台，为应用开发者们、应用使用者们和基础设施运营者们提供基于区块链技术基础设施服务的去中心化网络。Apron Network 将为 Kusama 和 Polkadot 生态提供节点服务、链上数据索引、报价等基础设施服务。</p><p>联系 <a href="mailto:contact@apron.network">contact@apron.network</a> 获取更多信息。</p>
+  description: Apron Network 致力于建立一个去中心化的基础设施服务网络平台，为应用开发者们、应用使用者们和基础设施运营者们提供基于区块链技术基础设施服务的去中心化网络。Apron Network 将为 Kusama 和 Polkadot 生态提供节点服务、链上数据索引、报价等基础设施服务。
+  tips: 联系我们获取更多信息
 
+blog: 更多详情
+
+blogNav:
+  next: 下一篇
+  previous: 上一篇

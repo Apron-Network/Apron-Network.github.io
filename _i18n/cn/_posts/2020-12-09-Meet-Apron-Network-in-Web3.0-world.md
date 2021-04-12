@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: 在Web 3.0的世界里，遇见Apron Network。
+locale: cn
 ---
 
 ##### 介绍

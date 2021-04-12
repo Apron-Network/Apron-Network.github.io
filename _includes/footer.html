@@ -1,80 +1,24 @@
-<section class="w3l-footer">
-    <footer class="footer-28">
-        <div class="footer-bg-layer">
-            <div class="container py-lg-3">
-                <div class="row footer-top-28">
-                    <div class="col-lg-4 footer-list-28 mt-5">
-                        <h6 class="footer-title-28">Apron Network</h6>
-                        <ul>
-                            <li>
-                                <p><strong>Email</strong> : <a href="mailto:contact@apron.network">contact@apron.network</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="row">
-                            {%- capture pageurl -%}
-                            {% if site.lang == 'en' %} {{site.url}}{% else%}{{site.url}}/{{site.lang}}{%- endif -%}
-                            {%- endcapture -%}
-<!--                            <div class="col-sm-4 col-12 footer-list-28 mt-5">-->
-<!--                                <ul>-->
-<!--                                    <li><a href="#">{% t nav.documents %}</a></li>-->
-<!--                                    <li><a href="#">{% t nav.market %}</a></li>-->
-<!--                                </ul>-->
-<!--                            </div>-->
-                            <div class="col-sm-4 footer-list-28 mt-5">
-                                <ul>
-                                    <li><a href="{{pageurl}}/blog">{% t nav.blog %}</a></li>
-                                    <li><a href="{{pageurl}}/about.html">{% t nav.about %}</a></li>
-
-                                </ul>
-                            </div>
-                            <div class="col-sm-4 col-12 footer-list-28 mt-5">
-                                <ul>
-<!--                                    <li><a href="#">{% t nav.project %}</a></li>-->
-                                    <li><a href="{{pageurl}}/whitepaper.pdf" target="_blank">{% t nav.whitepaper %}</a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="row">
-                            <ul class="footer-list-28 mt-5 rebase" >
-                                <li><span>Special Support</span> <a href="http://rebase.network/" target="_blank" class="text-white"><img src="/assets/images/rebase-white-all.png" alt=""></a></li>
-                                <li>  <a href="https://www.hecochain.com" target="_blank" class="text-white">HECO</a></li>
-                            </ul>
-                        </div>
-
-
-
-                    </div>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="logolFt"><img src="{{site.url}}/assets/images/logoBtm.png" alt=""></div>
+                <div class="footerTitle">Email: <a href="mailto:contact@apron.network">contact@apron.network</a></div>
+                <div class="rebase">{% t support %} <a href="http://rebase.network/" target="_blank" class="text-white"><img src="{{site.url}}/assets/images/Footer_Rebase.png" alt=""></a></div>
+            </div>
+            <div class="col-lg-6 rht">
+                <div class="tlt">Apron Network</div>
+                <div class="links">
+                    <div>{% t homepage.media.description %}</div>
+                    <ul>
+                        <li><a href="https://twitter.com/apronofficial1" target="_blank"><img src="{{site.url}}/assets/images/t.png" alt=""></a></li>
+                        <li><a href="https://github.com/Apron-Network/" target="_blank"><img src="{{site.url}}/assets/images/g.png" alt=""></a></li>
+                        <li><a href="https://t.me/apronnetwork" target="_blank"><img src="{{site.url}}/assets/images/te.png" alt=""></a></li>
+                        <li><a href="https://apron-network.medium.com" target="_blank"><img src="{{site.url}}/assets/images/m.png" alt=""></a></li>
+                        <li><a href="https://discord.gg/Bu6HzJP2YY" target="_blank"><img src="{{site.url}}/assets/images/c.png" alt=""></a></li>
+                    </ul>
                 </div>
             </div>
-
         </div>
-        <!-- move top -->
-        <button onclick="topFunction()" id="movetop" title="Go to top">
-            <span class="fa fa-angle-up"></span>
-        </button>
-        <script>
-            window.onscroll = function () {
-                scrollFunction()
-            };
-
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    document.getElementById("movetop").style.display = "block";
-                } else {
-                    document.getElementById("movetop").style.display = "none";
-                }
-            }
-
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-        </script>
-        <!-- /move top -->
-    </footer>
-</section>
+    </div>
+</footer>

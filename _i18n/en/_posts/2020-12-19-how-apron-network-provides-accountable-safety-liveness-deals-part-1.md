@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: How Apron Network provides accountable safety, liveness, deals-Part 1
+locale: en
 ---
 
 

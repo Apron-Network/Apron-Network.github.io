@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: Apron Network如何提供安全、活力、交易第一部分
+locale: cn
 ---
 
 

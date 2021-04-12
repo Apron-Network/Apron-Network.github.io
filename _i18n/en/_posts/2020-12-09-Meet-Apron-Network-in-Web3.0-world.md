@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: Meet Apron Network in Web 3.0 World
+locale: en
 ---
 
 ##### Introduction

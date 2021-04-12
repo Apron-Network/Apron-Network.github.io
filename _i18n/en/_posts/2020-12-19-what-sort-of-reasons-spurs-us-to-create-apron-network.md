@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: What sort of reasons spurs us to create Apron Network?
+locale: en
 ---
 
 

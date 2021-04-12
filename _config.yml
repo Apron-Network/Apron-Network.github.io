@@ -11,7 +11,7 @@ plugins:
 languages: ["en", "cn"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
-paginate: 6
+paginate: 12
 paginate_path: "/blog/:num/"
 
 ## Exclude files from build folder
