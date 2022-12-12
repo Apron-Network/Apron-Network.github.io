@@ -6,7 +6,6 @@ baseurl: ""
 
 plugins:
   - jekyll-paginate
-  - jekyll-multiple-languages-plugin
 
 
 languages: ["en", "cn"]
