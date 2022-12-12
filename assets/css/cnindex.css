@@ -1,0 +1,20 @@
+.bannerlist .imglft.cn img{
+    padding-top: 0;
+}
+.bannerlist .bgWhite.cn{
+    min-height: 158px;
+}
+.titleBr .brdrbtm.cn div{
+    padding-bottom: 16px;
+
+}
+.aboutus img{
+    max-width: 100%;
+
+}
+.aboutus .mobile{
+    display: none;
+}
+.aboutus .pc {
+    display: block;
+}

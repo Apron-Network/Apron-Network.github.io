@@ -1,0 +1,75 @@
+<header class="header headerTop">
+    <!-- Header Inner Area -->
+    <div class="header-inner">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="{{site.url}}/assets/images/logo.png" alt="logo"></a>
+                        </div>
+                        <!--/ End Logo -->
+                        <div class="mobile-nav">
+
+                            <div class="right-button">
+
+<!--                                <a href="index.html" class="btnRht btn">中</a>-->
+
+<!--                                {% if site.lang == "cn" %}-->
+<!--                                {% capture link1 %}{{ site.baseurl_root }}/{% endcapture %}-->
+<!--                                <a href="{{ link1 }}"  class="btnRht btn">{% t global.english %}</a>-->
+<!--                                {% elsif site.lang == "en" %}-->
+<!--                                {% capture link2 %}{{ site.baseurl_root }}/cn{% endcapture %}-->
+<!--                                <a href="{{ link2 }}"  class="btnRht btn">{% t global.chinese %}</a>-->
+<!--                                {% endif %}-->
+                                <span class="toggleLan"><img src="{{site.url}}/assets/images/Nav_Icon_Menu.png" alt=""></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-12 rhtTop">
+                        <div class="menu-area">
+                            <!-- Main Menu -->
+
+                            {%- capture pageurl -%}
+                            {% if site.lang == 'en' %} {{site.url}}{% else%}{{site.url}}/{{site.lang}}{%- endif -%}
+                            {%- endcapture -%}
+
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="navbar-collapse">
+                                    <div class="nav-inner">
+                                        <ul class="nav main-menu menu navbar-nav">
+                                            <li class="active"><a href="{{pageurl}}/index.html" class="top">{% t nav.home %} </a></li>
+                                            <li class="dropdown">
+                                                <a class="nav-link dropdown-toggle top" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">{% t nav.project %}</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="https://dashboard.apron.network" target="_blank">{% t nav.node %}</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{site.url}}/pdf/{{site.lang}}/whitepaper.pdf" target="_blank" class="top">{% t nav.whitepaper %}</a></li>
+                                            <li><a href="{{pageurl}}/blog/" class="top">{% t nav.blog %}</a></li>
+                                            <li><a href="{{pageurl}}/about.html" class="about top">{% t nav.about %}</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!--/ End Main Menu -->
+                        </div>
+                    </div>
+<!--                    <div class="col-lg-2 col-md-2 col-12 topRht">-->
+<!--                        <div class="right-button">-->
+<!--&lt;!&ndash;                            {% if site.lang == "cn" %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            {% capture link1 %}{{ site.baseurl_root }}/{% endcapture %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a href="{{ link1 }}"  class="btnRht btn">{% t global.english %}</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                            {% elsif site.lang == "en" %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            {% capture link2 %}{{ site.baseurl_root }}/cn{% endcapture %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a href="{{ link2 }}"  class="btnRht btn">{% t global.chinese %}</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                            {% endif %}&ndash;&gt;-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

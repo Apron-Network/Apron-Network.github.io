@@ -1,0 +1,425 @@
+{% include head.html %}
+<body>
+{% include header.html %}
+
+
+
+<section class="bgGray">
+    <div>
+        <div>
+            <div class="col-lg-12 bl">
+                <div class="banner">
+                    <div class="bgRht">
+                        <div class="bannermid container">
+                            <div class="midArrow">
+                                <img src="{{site.url}}/assets/images/newVersion/midArrow.jpg" alt="">
+                            </div>
+                            <div class="midper">
+                                <img src="{{site.url}}/assets/images/newVersion/percent.png" alt="">
+                            </div>
+                            <div class="circle"></div>
+                            <div>
+                                <div class="subTitle">Apron 2nd crowdportal</div>
+                                <div class="subline"><img src="{{site.url}}/assets/images/newVersion/line.png" alt=""></div>
+                                <div class="bannerTitle"><span>Boost</span> the service providers </div>
+
+                                <div class="btnTop">
+                                    <a href="https://apron.network/crowdportal" target="_blank">
+                                    <div class="btnBanner">Contribute <img src="{{site.url}}/assets/images/newVersion/btnArrow.png" alt=""></div></a>
+                                    <div class="btnTips">
+                                        <img src="{{site.url}}/assets/images/newVersion/lftArrow.jpg" alt="" class="lftArrow">
+                                        <div class="tipsLft">
+                                            <div class="ord1"><img src="{{site.url}}/assets/images/newVersion/triangle.png" alt=""></div>
+                                            <div class="ord0">APY <span>up to</span></div>
+                                        </div>
+                                        <div class="tipsNum">
+                                            200-600%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+<!--                    <div class="bannerTitle">{% t homepage.slides.title %}</div>-->
+<!--                    <div class="bannerBtn"><a href="https://dashboard.apron.network/" target="_blank">{% t homepage.slides.button %} <img src="{{site.url}}/assets/images/Btn_H60_Arrow.png" alt=""></a></div>-->
+<!--                    <div class="bannerDesc">{% t homepage.slides.description %}</div>-->
+                </div>
+                <div class="container blistTop">
+                    <ul class="bannerfirst">
+                        <li>
+                            <div class="blue">
+                                <div class="bgWhite {{site.lang}}">
+                                    <div class="flexHr">
+                                        <div class="titles">Supporters</div>
+                                        <div class="arrowSuport"><img src="assets/images/newVersion/Union.png" alt=""></div>
+                                        <div class="supportRht">
+                                            <div>
+                                                <a href="https://substrate.io/ecosystem/projects/" target="_blank"><img src="assets/images/newVersion/logo-substrate.png" alt="" class="web3"></a></div>
+                                            <div class="BrderRht"><img src="assets/images/newVersion/Rectangle-172.png" alt=""></div>
+                                            <div>
+                                                <a href="https://github.com/w3f/Grants-Program/blob/master/docs/accepted_grant_applications.md#surfing_woman-wave-8---fourth-quarter-2020" target="_blank"><img src="assets/images/newVersion/logo-web3.png" alt="" class="web3"></a></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container blistTop">
+                    <ul class="bannerlist">
+                        {% for item in site.translations[site.lang].homepage.labslist %}
+                        <li>
+                            <div class="blue">
+                                <div class="bgWhite {{site.lang}}">
+                                    <div class="row">
+                                        <div class="tlt1">
+                                            <div class="col-lg-3 imglft {{site.lang}}"><img src="{{site.url}}/assets/images/{{ item.img }}" alt=""></div>
+                                            <div class="col-lg-9 titleRht">{{ item.liTitle }}</div>
+                                        </div>
+                                        <div class="col-lg-12 content">{{ item.liDescrption }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg1"></div>
+</section>
+
+<section class="p1">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div>
+                  <div class="tips">{% t homepage.advantage.subTitle %}</div>
+                  <div class="btmBlue"></div>
+                  <div class="title">{% t homepage.advantage.title %}</div>
+              </div>
+              <div>
+                <ul class="row p1list">
+                    {% for item in site.translations[site.lang].homepage.advantagelist %}
+                    <li class="col-lg-6">
+                        <div class="num">No.{{ item.index }}</div>
+                        <div class="imgTips"><img src="{{site.url}}/assets/images/P2_Cont_Arrow.png" alt=""></div>
+                        <div>
+                            <div class="title">{{ item.liTitle }}</div>
+                            <div>{{ item.liDescrption }}</div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</section>
+
+<section class="bgGray p2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div>
+                    <div class="tips">{% t homepage.chooseTop.subTitle %}</div>
+                    <div class="btmBlue"></div>
+<!--                    <div class="title">Apron provides<br/> more secure stable<br/> and rich<br/> functionality</div>-->
+                    <div class="title">{% t homepage.chooseTop.title %}</div>
+                </div>
+                <div class="p2lftBtm">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L1.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L2.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L3.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L4.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L5.png" alt="">
+                </div>
+                <div class="p2lftBtmM">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L1M.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L2M.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L3M.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L4M.png" alt="">
+                    <img src="{{site.url}}/assets/images/P3_Icon_L5M.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <ul class="p2rht">
+                    {% for item in site.translations[site.lang].homepage.chooselist %}
+<!--                    <div class="col-lg-4 col-md-6 grids-feature mt-lg-4 mt-4 wow fadeInUp" data-wow-delay="0.2s">-->
+<!--                        <div class="area-box">-->
+<!--                            <span class="{{ item.classname }}"></span>-->
+<!--                            <h4><a class="title-head"></a></h4>-->
+<!--                            <p></p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <li>
+                        <div class="listtitle">{{ item.liTitle }}</div>
+                        <div class="listcontent">{{ item.liDescrption }}</div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg2"></div>
+</section>
+
+<section class="p3">
+    <div class="blueTitle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <div class="tips">APRON NETWORK'S</div>
+                        <div class="btmBlue"></div>
+                        <div class="title">{% t homepage.team.title %}</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 blueRht">
+                    <img src="{{site.url}}/assets/images/P4_Logo_EN.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+       <div class="container">
+           <ul class="row">
+               <li class="col-lg-4">
+                   <div class="photobr">
+                       <div class="photo">
+                           <img src="{{site.url}}/assets/images/CEO.png" alt="">
+                       </div>
+                        <div class="photoRht">
+                            <div class="sign">
+                                <img src="{{site.url}}/assets/images/P4_Cont_sign.png" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="ceo">CEO <img src="{{site.url}}/assets/images/P4_Cont_Arrow.png" alt=""></div>
+                                <div class="nameBtm">Yifei Zhang</div>
+                            </div>
+
+                        </div>
+                   </div>
+                   <div class="description">{% t homepage.team.li1Descrption %}
+                   </div>
+               </li>
+               <li class="col-lg-4">
+                   <div class="photobr">
+                       <div class="photo">
+                           <img src="{{site.url}}/assets/images/CTO.png" alt="">
+                       </div>
+                        <div class="photoRht">
+                            <div class="sign">
+                                <img src="{{site.url}}/assets/images/P4_Cont_sign.png" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="ceo">CTO <img src="{{site.url}}/assets/images/P4_Cont_Arrow.png" alt=""></div>
+                                <div class="nameBtm">Jim Clancy</div>
+                            </div>
+
+                        </div>
+                   </div>
+                   <div class="description">{% t homepage.team.li2Descrption %}
+                   </div>
+               </li>
+               <li class="col-lg-4">
+                   <div class="photobr">
+                       <div class="photo">
+                           <img src="{{site.url}}/assets/images/CMO.png" alt="">
+                       </div>
+                        <div class="photoRht">
+                            <div class="sign">
+                                <img src="{{site.url}}/assets/images/P4_Cont_sign.png" alt="">
+                            </div>
+                            <div class="name">
+                                <div class="ceo">CMO <img src="{{site.url}}/assets/images/P4_Cont_Arrow.png" alt=""></div>
+                                <div class="nameBtm">Sean</div>
+                            </div>
+
+                        </div>
+                   </div>
+                   <div class="description">{% t homepage.team.li3Descrption %}
+                   </div>
+               </li>
+           </ul>
+       </div>
+    </div>
+    <div class="bg3"></div>
+</section>
+
+<section class="roadmap bgGray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="titleBr">
+                    <div class="titleName">Apron Network<br/> Roadmap</div>
+                    <div class="brdrbtm">
+                        <div class="sign">
+                            <img src="{{site.url}}/assets/images/sign.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div >
+            <div class="years">
+                <div><img src="assets/images/P5_Logo.png" alt=""></div>
+                <div class="ayearBtm">
+                    <div class="ayear"><img src="assets/images/P5_2021_Wap.png" alt=""></div>
+                    <div class="yearbtm"></div>
+
+                </div>
+            </div>
+            <div class="roadmapList">
+                <div class="row">
+                    {% for item in site.translations[site.lang].homepage.roadmap %}
+                    <div class="col-lg-3">
+                        <div class="bgTit">{{ item.title }} </div>
+                        <div class="description">{{ item.description }}</div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="institutions">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="titleBr">
+                    <div class="titleName">{% t homepage.institutions.title1 %}</div>
+                    <div class="brdrbtm {{site.lang}}">
+                        <div class="sign">
+                            <img src="{{site.url}}/assets/images/sign.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row institutionslist">
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/1_1_NGC.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/1_2_DFG.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/1_3_DR.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/1_4_CMS.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        ><img src="{{site.url}}/assets/images/institutions/1_5_REP.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/1_6_SPAR.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/2_1_MON.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/2_2_PAKA.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/2_3_CAN.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/2_4_VEGA.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/2_5_AU.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/2_6_BLO.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/3_1_SC.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/3_2_R8.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/3_3_OC.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/institutions/3_4_SC.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-12 partner">
+                <div class="titleBr">
+                    <div class="titleName">{% t homepage.institutions.title2 %}</div>
+                    <div class="brdrbtm {{site.lang}}">
+                        <div class="sign">
+                            <img src="{{site.url}}/assets/images/sign.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row institutionslist">
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/1_1_PHA.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/1_2_BIF.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/1_3_TRU.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/1_4_BAN.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/1_5_DEGO.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/1_6_DAR.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/5_1_CRU.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/5_2_IOS.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/5_3_STO.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/5_4_LIT.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/5_5_MATH.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/5_6_CERE.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/6_1_CHAI.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/6_2_PAT.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="{{site.url}}/assets/images/partner/WechatIMG8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}
+{% include footscript.html %}
+
+
+</body>
+</html>

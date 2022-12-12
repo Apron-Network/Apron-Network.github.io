@@ -1,0 +1,33 @@
+{% include head.html %}
+<body>
+{% include header.html %}
+<section class="aboutbanner"></section>
+<section class="aboutbannerM"></section>
+
+<section class="aboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 mobile">
+                <img src="{{site.url}}/assets/images/imageAbout.png" alt="">
+            </div>
+            <div class="col-lg-7">
+                <div class="description">
+                    {% t aboutus.description %}
+                </div>
+                <div class="mailto">
+                    <span class="lft">{% t aboutus.tips %}</span>
+                    <div class="rht">
+                        <span class="txt">contact@apron.network</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 pc">
+                <img src="{{site.url}}/assets/images/imageAbout.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+{% include footer.html %}
+{% include footscript.html %}
+</body>
+</html>

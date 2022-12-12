@@ -1,0 +1,104 @@
+﻿global:
+  chinese: 中
+
+nav:
+  home: Home
+  documents: Documents
+  market: Services Market
+  project: Projects
+  node: Apron Services
+  explorer: Explorer
+  whitepaper: Whitepaper
+  blog: Blog
+  about: About US
+  news: Apron's Blog
+
+support: Special Support
+
+homepage:
+  slides:
+    title: DECENTRALIZED<br/> INFRASTRUCTURE<br/> SERVICE NETWORK
+    description: A decentralized platform that provides infrastructure services for DApp developers,DApp users,and operators.
+    button:  Get Started
+  advantage:
+    subTitle: WE FOCUS ON
+    title: INFRASTRUCTURE<br/> SERVICES
+  advantagelist:
+    - liTitle: SPEEDY
+      index: 1
+      liDescrption: Apron API enables DApp developers to connect to the network more quickly
+    - liTitle: USER-TAILORED
+      index: 2
+      liDescrption: Service Rankings in the Apron Market provide more options for DApp developers
+    - liTitle: ECONOMICAL
+      index: 3
+      liDescrption: DApp paying fees on demand can better help developers save costs
+    - liTitle: DIVERSE
+      index: 4
+      liDescrption: Apron will support full-chain ecology to help DApp developers choose more blockchain networks
+  chooseTop:
+    subTitle: APPLICATION DEVELOPERS ARE<br/> KEEN TO USE APRON
+    title: Apron provides<br/> more secure stable<br/> and rich<br/> functionality
+  chooselist:
+    - liTitle: Greater choice API services
+      classname: fa fa-database
+      liDescrption: Multiple services API interfaces, node data, oracle data, etc.
+    - liTitle: Security guarantees
+      classname: fa fa-university
+      liDescrption: API services providers are penalized for mortgaging assets if services are not guaranteed.
+    - liTitle: Multi-link ecological API interface
+      classname: fa fa-cube
+      liDescrption: Access Polkadot、Ethereum、EOS、Filecoin and other public chains to serve more application developers.
+    - liTitle: Instant availability
+      classname: fa fa-clock-o
+      liDescrption: Just write a piece of code to access your application.
+    - liTitle: Apron Market
+      classname: fa fa-line-chart
+      liDescrption: More options for better API service providers based on API evaluations.
+  labs:
+    subTitle: Apron Labs
+    title: All the functionality,<br> speed, and reliability <br>required by the application
+  labslist:
+    - liTitle: Strong <br /> support
+      img: Icon_H40_Str.png
+      liDescrption: We have experts around the world to provide Apron Network with comprehensive technical support.
+    - liTitle: Business<br /> support
+      img: Icon_H40_Bus.png
+      liDescrption: Apron tokens would be rewarded to support your use of API services if you build DApp projects on Apron.
+    - liTitle: Special<br /> customization
+      img: Icon_H40_Spe.png
+      liDescrption: Customized plans could be provided for large business organizations to help them gain access to more quality service providers.
+  team:
+    subTitle: APRON NETWORK'S
+    title: Project<br/> Team
+    li1Descrption: PhD in Information Security,Harbin Institute of Technology, China.Earlier,Yifei gained his Master’s Degree in Computing at Unitec Institute of Technology,Auckland.As a fanatic follower of blockchain technology,Yifei has a wealth of experience in Ethereum & Eos technological development and led many blockchain projects successfully.
+    li2Descrption: Jim graduated from AmericanInter-Continental University.On top of an experienced technical manager with a demonstrated history of working in the computer and network security industry,he is skilled at Data Centers,corporate services,and production,customer facing infrastructures globally.
+    li3Descrption: Sean holds a PhD from Asia Gaa Ulster University and has been working in the digital world for many years.As a big fan of blockchain technology,he has been active in various outstanding communities and has a wealth of experience in researching crypto-currency,especially in the field of marketing.
+  media:
+    description: Don’t miss to follow us on our Social networks.
+  roadmaptop:
+    title: Apron Network Roadmap
+  roadmap:
+    - title: Q1
+      description: <div>Complete the Web3 Open Grants application</div><div>Complete the Apron Network White Paper</div><div>Establish the foundation of Apron Network</div><div>Release ERC20 token and complete private placement</div><div>Complete the development of POC version</div>
+    - title: Q2
+      description: <div>Release Apron Network Beta 1.0 version</div><div>Provide node services for Ethereum</div><div>Provide node services for Polkadot</div><div>Release Apron Market</div>
+    - title: Q3
+      description: <div> Connect to multi-public blockchain node service</div><div>Release the ApronSDK</div><div>Starting public BETA</div>
+    - title: Q4
+      description: <div> Release the Apron Network</div><div>Start to build DAO</div><div>Connect more traditional infrastructure service<br>for Apron Network.</div><div>Hand over Apron Network</div>
+  institutions:
+    title1: Investment <br/> Institutions
+    title2: cooperative <br/> partners
+
+aboutus:
+  description: Apron Network is committed to building a decentralized infrastructure service network for DApp developers, DApp users and infrastructure operators based on a decentralized network of blockchain technology. We'll provide Kusama and Polkadot ecosystem with multiple services, including but not limited to node service, on-chain data indexing service, price feed service, etc.
+  tips: To get more information please contact
+
+blog: Read More
+
+blogNav:
+  next: Next article
+  previous: Previous
+
+

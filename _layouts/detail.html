@@ -1,0 +1,86 @@
+{% include head.html %}
+<body>
+
+{% include header.html %}
+
+{%- capture blogurl -%}
+{% if site.lang == 'en' %} {{site.url}}{% else%}{{site.url}}/{{site.lang}}{%- endif -%}
+{%- endcapture -%}
+<section class="detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 bgGray">
+                <div class="lft">
+                    <div class="searchDlt">
+                        <div class="search1">
+                            <input type="text" id="search-input" placeholder="Search">
+                        </div>
+                        <div>
+                            <ul id="results-container1">
+
+                            </ul>
+                            <script src="{{site.url}}/assets/js/simple-jekyll-search.min.js"></script>
+                            <script>
+                                SimpleJekyllSearch({
+                                    searchInput: document.getElementById('search-input'),
+                                    resultsContainer: document.getElementById('results-container1'),
+                                    json: '{{site.url}}/search/search.json',
+                                    searchResultTemplate: '<li><span>{date}</span><a href="{url}" title="{desc}">{title}</a></li>',
+                                    noResultsText: '<li>no contents</li>',
+                                    limit: 20,
+                                    fuzzy: false
+                                })
+                            </script>
+                        </div>
+                    </div>
+                    {% if page.previous.title%}
+                    <div class="prev">
+                        <div>
+                            <div><img src="{{site.url}}/assets/images/BlogCont_UpArrow.png" alt=""></div>
+                            <div class="prevTxt">{% t blogNav.previous %}</div>
+                            <div class="title"><a href="{{blogurl}}{{page.previous.url}}">{{page.previous.title}}</a></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if page.next.title%}
+                    <div class="next">
+                        <div>
+                            <div><img src="{{site.url}}/assets/images/BlogCont_DownArrow.png" alt=""></div>
+                            <div class="prevTxt">{% t blogNav.next %}</div>
+                            <div class="title"><a href="{{blogurl}}{{page.next.url}}">{{page.next.title}}</a></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="nav">
+                {% if page.previous.title%}
+                <div class="nxt"><a href="{{blogurl}}{{page.previous.url}}"><img src="{{site.url}}/assets/images/Left_Arrow.png" alt="">{% t blogNav.previous %}</a></div>
+                {% endif %}
+                {% if page.previous.title and page.next.title%}
+                <div class="navBr"></div>
+                {% endif %}
+                {% if page.next.title%}
+                <div class="nxt"><a href="{{blogurl}}{{page.next.url}}">{% t blogNav.next %}<img src="{{site.url}}/assets/images/Right_Arrow.png" alt=""></a></div>
+                {% endif %}
+            </div>
+            <div class="col-lg-8">
+                <div class="article">
+                    <div class="topicTitle">{{page.title}}</div>
+                    <div class="description">
+                        <img src="{{site.url}}/assets/images/Icon_H20_Date.png" alt=""><span> {{page.date | date:"%Y/%m/%d "}}</span>
+<!--                        <img src="{{site.url}}/assets/images/Icon_H20_Read.png" alt=""><span>3214</span>-->
+                    </div>
+                    <div class="content">
+                        {{content}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% include footer.html %}
+{% include footscript.html %}
+</body>
+</html>

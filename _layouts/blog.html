@@ -1,0 +1,93 @@
+{% include head.html %}
+<body>
+{% include header.html %}
+<section class="blogbanner"></section>
+<section class="blogbannerM"></section>
+
+{%- capture blogurl -%}
+{% if site.lang == 'en' %} {{site.url}}{% else%}{{site.url}}/{{site.lang}}{%- endif -%}
+{%- endcapture -%}
+
+<section class="bloglist bgGray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 searchrht">
+                <div class="searchBtm"></div>
+                <div class="search">
+                    <input type="text" id="search-input" placeholder="Search">
+
+                </div>
+                <div>
+                    <ul id="results-container">
+
+                    </ul>
+                    <script src="{{site.url}}/assets/js/simple-jekyll-search.min.js"></script>
+                    <script>
+                        SimpleJekyllSearch({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            json: '{{site.url}}/search/search.json',
+
+                            searchResultTemplate: '<li><span>{date}</span><a href="{url}" title="{desc}">{title}</a></li>',
+                            noResultsText: '<li>no contents</li>',
+                            limit: 20,
+                            fuzzy: false
+                        })
+                    </script>
+                </div>
+            </div>
+            <div class="col-lg-12 list">
+                <ul class="row">
+                    {% for post in paginator.posts %}
+                    <li class="col-lg-6">
+                        <div class="title">{{ post.title}}</div>
+                        <div class="description">
+                            <img src="{{site.url}}/assets/images/Icon_H20_Date.png" alt=""><span>{{post.date | date:"%Y/%m/%d "}}</span>
+<!--                            <img src="{{site.url}}/assets/images/Icon_H20_Read.png" alt=""><span>3214</span>-->
+                        </div>
+                        <div class="content">{{ post.content | strip_html}}</div>
+                        <div><a href="{{blogurl}}{{ post.url}}">{% t blog %} <img src="{{site.url}}/assets/images/Btn_H36_Arrow.png" alt="" /></a></div>
+                    </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+            <div class="col-lg-12">
+                {% if paginator.total_pages > 1 %}
+                <div class="pagination">
+                    <div class="pagination-list">
+                        {% if paginator.previous_page %}
+                        <a href="{{blogurl}}{{ paginator.previous_page_path }}" class="next">previous</a>
+                        {% else %}
+                       <span>previous</span>
+                        {% endif %}
+
+                        {% for page in (1..paginator.total_pages) %}
+                        {% if page == paginator.page %}
+                        <a href="#" class="active">{{ page }}</a>
+                        {% elsif page == 1 %}
+                        <li><a href="{{blogurl}}/blog">{{ page }}</a></li>
+                        {% else %}
+                        <li><a href="{{blogurl}}{{site.paginate_path | replace: ':num', page}}">{{ page }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+
+                        {% if paginator.next_page %}
+                        <li><a href="{{blogurl}}{{ paginator.next_page_path }}" class="next">next</a></li>
+                        {% else %}
+                        <span>next</span>
+                        {% endif %}
+
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}
+{% include footscript.html %}
+
+</body>
+</html>
